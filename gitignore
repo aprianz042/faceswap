@@ -1,0 +1,21 @@
+# Model besar
+inswapper_128.onnx
+
+# Folder model
+models/
+
+# File dataset
+dataset/
+
+# File python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv
+.env
+
+# File OS
+.DS_Store
+Thumbs.db
