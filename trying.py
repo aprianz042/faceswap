@@ -22,7 +22,7 @@ swapper = get_model(
 # =========================
 # 3. Load Images
 # =========================
-source_img = cv2.imread("putin.jpg")
+source_img = cv2.imread("jokowi.jpg")
 target_img = cv2.imread("arab.jpg")
 
 if source_img is None or target_img is None:
@@ -60,7 +60,7 @@ result = swapper.get(
 # =========================
 # 6. Save Result
 # =========================
-cv2.imwrite("swapped_result.jpg", result)
+cv2.imwrite("swapped_result1.jpg", result)
 
 print("✅ Face swap selesai!")
 print("Hasil tersimpan sebagai: swapped_result.jpg")
